@@ -1,0 +1,66 @@
+.background{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+    background-size: cover; 
+    background-position: center;  
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border: 5px solid black;
+    width: 400px;
+    height: 600px;;
+    background-color: peachpuff;
+    color: black; 
+    opacity: 0.9
+}
+
+.description{
+    padding-bottom: 40px; 
+    text-align: center; 
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.button-container{
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+}
+
+.button:hover{
+    color: red; 
+    opacity: 1;
+}
+
+
+.score-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.question-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
