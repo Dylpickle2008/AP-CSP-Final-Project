@@ -4,6 +4,7 @@
     align-items: center;
     position: relative;
     min-height: 100vh;
+    background-image: url("https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/04/earth/24035531-2-eng-GB/Earth.jpg");
     background-size: cover; 
     background-position: center;  
 }
@@ -40,6 +41,7 @@
 }
 
 .button:hover{
+    background-color: black;
     color: red; 
     opacity: 1;
 }
