@@ -16,9 +16,9 @@
     border: 5px solid black;
     width: 400px;
     height: 600px;;
-    background-color: peachpuff;
+    background-color: white;
     color: black; 
-    opacity: 0.9
+    opacity: 0.8;
 }
 
 .description{
